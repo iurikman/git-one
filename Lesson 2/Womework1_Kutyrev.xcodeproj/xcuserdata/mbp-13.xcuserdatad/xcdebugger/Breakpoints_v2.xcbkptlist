@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Womework1_Kutyrev/LoginViewController.swift"
-            timestampString = "570902893.344954"
+            timestampString = "571393060.40447"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "18"
@@ -25,8 +25,8 @@
                   symbolName = "Womework1_Kutyrev.LoginViewController.(loginTextField in _FE9EA82303FC5E2FC1E33659550F7977).getter : weak Swift.Optional&lt;__C.UITextField&gt;"
                   moduleName = "Womework1_Kutyrev"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mbp-13/Desktop/%D0%9A%D1%83%D1%80%D1%81%201/%D0%A3%D1%80%D0%BE%D0%BA%201/Kutyrev_HW1/Womework1_Kutyrev/Womework1_Kutyrev/LoginViewController.swift"
-                  timestampString = "570198633.2075289"
+                  urlString = "file:///Users/mbp-13/Desktop/git-one/Lesson%202/Womework1_Kutyrev/LoginViewController.swift"
+                  timestampString = "571391452.77352"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "18"
@@ -40,43 +40,13 @@
                   symbolName = "Womework1_Kutyrev.LoginViewController.(loginTextField in _FE9EA82303FC5E2FC1E33659550F7977).setter : weak Swift.Optional&lt;__C.UITextField&gt;"
                   moduleName = "Womework1_Kutyrev"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mbp-13/Desktop/%D0%9A%D1%83%D1%80%D1%81%201/%D0%A3%D1%80%D0%BE%D0%BA%201/Kutyrev_HW1/Womework1_Kutyrev/Womework1_Kutyrev/LoginViewController.swift"
-                  timestampString = "570198633.21507"
+                  urlString = "file:///Users/mbp-13/Desktop/git-one/Lesson%202/Womework1_Kutyrev/LoginViewController.swift"
+                  timestampString = "571391452.77821"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "18"
                   endingLineNumber = "18"
                   offsetFromSymbolStart = "106">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Womework1_Kutyrev.LoginViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Womework1_Kutyrev.LoginViewController"
-                  moduleName = "Womework1_Kutyrev"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mbp-13/Desktop/%D0%9A%D1%83%D1%80%D1%81%201/%D0%A3%D1%80%D0%BE%D0%BA%201/Kutyrev_HW1/Womework1_Kutyrev/Womework1_Kutyrev/LoginViewController.swift"
-                  timestampString = "570198633.219674"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "384">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Womework1_Kutyrev.LoginViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Womework1_Kutyrev.LoginViewController&gt;"
-                  moduleName = "Womework1_Kutyrev"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mbp-13/Desktop/%D0%9A%D1%83%D1%80%D1%81%201/%D0%A3%D1%80%D0%BE%D0%BA%201/Kutyrev_HW1/Womework1_Kutyrev/Womework1_Kutyrev/LoginViewController.swift"
-                  timestampString = "570198633.223981"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "355">
                </Location>
             </Locations>
          </BreakpointContent>

@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14317130220F1B07006BF89D /* AddFriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1431712F220F1B07006BF89D /* AddFriendTableViewCell.swift */; };
+		14317133220F1E41006BF89D /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14317132220F1E41006BF89D /* FriendModel.swift */; };
+		14317137220F2D6C006BF89D /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14317136220F2D6C006BF89D /* FriendsTableViewController.swift */; };
+		14317139220F34B2006BF89D /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14317138220F34B2006BF89D /* FriendTableViewCell.swift */; };
+		1431713B2210768F006BF89D /* FriendCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1431713A2210768F006BF89D /* FriendCollectionViewController.swift */; };
+		1431713D221079EB006BF89D /* FriendProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1431713C221079EB006BF89D /* FriendProfileCollectionViewCell.swift */; };
 		1475D01721FC721E003B8D04 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475D01621FC721E003B8D04 /* LoginViewController.swift */; };
-		148D8D782205DE7A00F92127 /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148D8D772205DE7A00F92127 /* CitiesTableViewController.swift */; };
-		148D8D7A2207514300F92127 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148D8D792207514300F92127 /* LoginViewController.swift */; };
+		148D8D782205DE7A00F92127 /* AddFriendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148D8D772205DE7A00F92127 /* AddFriendTableViewController.swift */; };
 		14F8302E21FC67BE0030026B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8302D21FC67BE0030026B /* AppDelegate.swift */; };
 		14F8303321FC67BE0030026B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F8303121FC67BE0030026B /* Main.storyboard */; };
 		14F8303521FC67BE0030026B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F8303421FC67BE0030026B /* Assets.xcassets */; };
@@ -17,9 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1431712F220F1B07006BF89D /* AddFriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendTableViewCell.swift; sourceTree = "<group>"; };
+		14317132220F1E41006BF89D /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		14317136220F2D6C006BF89D /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		14317138220F34B2006BF89D /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		1431713A2210768F006BF89D /* FriendCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCollectionViewController.swift; sourceTree = "<group>"; };
+		1431713C221079EB006BF89D /* FriendProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendProfileCollectionViewCell.swift; sourceTree = "<group>"; };
 		1475D01621FC721E003B8D04 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		148D8D772205DE7A00F92127 /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
-		148D8D792207514300F92127 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "../../../../../git-one/Lesson 2/LoginViewController.swift"; sourceTree = "<group>"; };
+		148D8D772205DE7A00F92127 /* AddFriendTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendTableViewController.swift; sourceTree = "<group>"; };
 		14F8302A21FC67BE0030026B /* Womework1_Kutyrev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Womework1_Kutyrev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F8302D21FC67BE0030026B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14F8303221FC67BE0030026B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,6 +49,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1431712D220F19EB006BF89D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				14317136220F2D6C006BF89D /* FriendsTableViewController.swift */,
+				1475D01621FC721E003B8D04 /* LoginViewController.swift */,
+				148D8D772205DE7A00F92127 /* AddFriendTableViewController.swift */,
+				1431713A2210768F006BF89D /* FriendCollectionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1431712E220F1AE2006BF89D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1431712F220F1B07006BF89D /* AddFriendTableViewCell.swift */,
+				14317138220F34B2006BF89D /* FriendTableViewCell.swift */,
+				1431713C221079EB006BF89D /* FriendProfileCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		14317131220F1DFF006BF89D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				14317132220F1E41006BF89D /* FriendModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		14F8302121FC67BD0030026B = {
 			isa = PBXGroup;
 			children = (
@@ -59,13 +98,13 @@
 			isa = PBXGroup;
 			children = (
 				14F8302D21FC67BE0030026B /* AppDelegate.swift */,
-				1475D01621FC721E003B8D04 /* LoginViewController.swift */,
-				148D8D792207514300F92127 /* LoginViewController.swift */,
 				14F8303121FC67BE0030026B /* Main.storyboard */,
 				14F8303421FC67BE0030026B /* Assets.xcassets */,
 				14F8303621FC67BE0030026B /* LaunchScreen.storyboard */,
 				14F8303921FC67BE0030026B /* Info.plist */,
-				148D8D772205DE7A00F92127 /* CitiesTableViewController.swift */,
+				14317131220F1DFF006BF89D /* Models */,
+				1431712E220F1AE2006BF89D /* Cells */,
+				1431712D220F19EB006BF89D /* ViewControllers */,
 			);
 			path = Womework1_Kutyrev;
 			sourceTree = "<group>";
@@ -141,10 +180,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				148D8D7A2207514300F92127 /* LoginViewController.swift in Sources */,
+				14317133220F1E41006BF89D /* FriendModel.swift in Sources */,
 				1475D01721FC721E003B8D04 /* LoginViewController.swift in Sources */,
+				1431713B2210768F006BF89D /* FriendCollectionViewController.swift in Sources */,
+				1431713D221079EB006BF89D /* FriendProfileCollectionViewCell.swift in Sources */,
+				14317137220F2D6C006BF89D /* FriendsTableViewController.swift in Sources */,
 				14F8302E21FC67BE0030026B /* AppDelegate.swift in Sources */,
-				148D8D782205DE7A00F92127 /* CitiesTableViewController.swift in Sources */,
+				148D8D782205DE7A00F92127 /* AddFriendTableViewController.swift in Sources */,
+				14317130220F1B07006BF89D /* AddFriendTableViewCell.swift in Sources */,
+				14317139220F34B2006BF89D /* FriendTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

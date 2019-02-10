@@ -21,13 +21,14 @@ class LoginViewController: UIViewController {
     @IBOutlet private weak var passTextField: UITextField?
     
     @IBOutlet private weak var loginButton: UIButton?
+    @IBOutlet private weak var buttonToGreen: UIButton?
     
-    @IBAction func myUnwindAction(segue: UIStoryboardSegue) {
-        
-    }
+//    @IBAction func myUnwindAction(segue: UIStoryboardSegue) {
+//
+//    }
 
-    private let demoLogin = "123"
-    private let demoPass = "456"
+    private let demoLogin = "1"
+    private let demoPass = "1"
     
     //Mark: - Init
     
@@ -137,6 +138,13 @@ class LoginViewController: UIViewController {
         self.view.endEditing(true)
     }
     
+    @IBAction func logOutAction(segue: UIStoryboardSegue?) {
+//        let dastinationVC = segue?.destination  // login
+//        let sourse = segue?.source              //My profile
+    }
+    
+    
+    
     func showErrorAlert() {
         
         let alertController = UIAlertController(title: "Error", message: "Wrong login or pass", preferredStyle: .alert)
@@ -151,11 +159,11 @@ class LoginViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        print("prepare \(segue.identifier)")
+        print("prepare \(String(describing: segue.identifier))")
         
         if let identifier = segue.identifier, identifier == "openApp" {
-            if let destinationVC = segue.destination as? CitiesTableViewController {
-                destinationVC.view.backgroundColor = UIColor.red
+            if let destinationVC = segue.destination as? UITabBarController {
+                destinationVC.selectedIndex = 1
             }
         }
         
